@@ -86,8 +86,8 @@ That's it. Click "Purchase" (there's no charge for this software - you are agree
 
 __Cleanup__
 
-Now that the app is deployed, there's a final step. We need to go back into our Azure Active Directory apps and update the URLs to match the URL of our new web app.
-  * Navigate to your new web application - it's under "App Services". Click to copy the URL. __NOTE: this URL will not be using the HTTPS protocol - you will need to add the "s" to the protocol after you paste it in.__
+Now that the app is deployed, there's a final step. We need to go back into our Azure Active Directory apps and update the URLs to match the URL of our new web app. 
+  * Navigate to your new web application - it's under "App Services". Click to copy the URL. __NOTE: this URL will not be using the HTTPS protocol - you will need to add the "s" to the protocol after you paste it in.__You will need to add both the HTTP & HTTPS urls for your apps to the reply URL.
 
     ![alt text][Url]
   
