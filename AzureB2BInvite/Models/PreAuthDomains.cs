@@ -110,7 +110,7 @@ namespace AzureB2BInvite.Models
         }
         public static async Task<PreAuthDomain> GetDomainByName(string domainName)
         {
-            var res = (await DocDBRepo.DB<PreAuthDomain>.GetItemsAsync(d => d.DomainName == domainName)).SingleOrDefault();
+            var res = (await DocDBRepo.DB<PreAuthDomain>.GetItemsAsync(d => d.DomainName.ToLower() == domainName.ToLower())).SingleOrDefault();
             if (res == null) return null;
 
             if (res.InviteTemplateId != null)
