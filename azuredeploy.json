@@ -178,7 +178,7 @@
         "name": "[variables('webSiteName')]",
         "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]",
         "siteConfig": {
-          "phpVersion": "off",
+          "phpVersion": "",
           "appSettings": [
             {
               "Name": "ida:ClientId_Admin",
