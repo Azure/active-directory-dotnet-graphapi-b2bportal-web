@@ -59,7 +59,7 @@ namespace B2BPortal.Areas.Admin.Controllers
                 var domain = await GuestRequestRules.GetMatchedDomain(request.EmailAddress);
                 var res = await GuestRequestRules.ExecuteDispositionAsync(request, User.Identity.Name, Utils.GetProfileUrl(Request.Url), domain);
 
-                if (res !=null &&  (res.InvitationResult.SendInvitationMessage || res.MailSent))
+                if (res !=null &&  ((res.InvitationResult?.SendInvitationMessage ?? false) || res.MailSent))
                 {
                     sentCount++;
                 }
