@@ -1,9 +1,12 @@
 # Azure Active Directory/ASP.Net MVC/GraphAPI B2BPortal
 ## Sample/Prototype project enabling self-service B2B capabilities for an Azure AD Tenant
 
-This code is a sample to demonstrate the Azure Active Directory [B2B Invitation API](https://docs.microsoft.com/graph/api/invitation-post).  It was last updated in 2017.
+This code is a sample to demonstrate the Azure Active Directory [B2B Invitation API](https://docs.microsoft.com/graph/api/invitation-post). It was last updated in 2017.
 
-If you wish to enable users from other organizations to request access, and in approved be provisioned with guest accounts and  assigned to groups, apps and SharePoint Online sites, then instead use [Azure AD entitlement management](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) to configure policies that [manage access for external users](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-external-users#how-access-works-for-external-users).
+If you wish to enable users from other organizations to request access, and upon approval be provisioned with guest accounts 
+and assigned to groups, apps and SharePoint Online sites, then instead use 
+[Azure AD entitlement management](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) to 
+configure policies that [manage access for external users](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-external-users#how-access-works-for-external-users).
 
 ## Quick Start
 
